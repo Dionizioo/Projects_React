@@ -1,0 +1,11 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button_back{
+    /* deixando o botão do lado direito */
+    margin-left: 90%;
+    /* deixando o botão la em baixo, junto com a borda */
+    margin-top: 200px;
+}

@@ -1,0 +1,20 @@
+.counter{
+    display: flex;
+    /* numero em cima e texto embaixo */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.counter_number{
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;	
+    border-radius: 0.7rem;
+    font-size: 4rem;
+    font-weight: bold;
+    /* isso vai prever numeros com dois algoritmos */
+    min-width: 80px;
+    text-align: center;
+}
