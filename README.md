@@ -18,5 +18,10 @@ Bem-vindo ao repositório que documenta meu aprendizado no curso de Frontend! Aq
 - **Descrição:** Blog de Axios com json e Local Storage.
 - **Tecnologias:**  React+Javascrip , Json e Local storage.
 
+## Projeto 5: Party Time
+- **Descrição:** Site de realizar sua festas junto com serviços.
+- **Tecnologias:**  React+Javascrip , Json , Local storage e MongoDB.
+
+
 Este repositório é uma amostra do meu progresso no curso de Frontend e reflete a aplicação prática dos conhecimentos adquiridos. Sinta-se à vontade para explorar cada projeto e suas implementações.
 
