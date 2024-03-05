@@ -1,0 +1,22 @@
+#navbar{
+    display: flex;
+    /* tirulo de um lado e texto de outro */
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    
+}
+
+#navbar h2{
+    color: rgb(233, 231, 228);
+    font-weight: 900;
+    margin: 0;
+    font-style: italic;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}

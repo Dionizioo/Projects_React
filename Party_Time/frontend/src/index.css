@@ -1,0 +1,50 @@
+/* estilos globais */
+*{
+    margin: 0;
+    padding: 0;
+    /* não deixai ultrapalar a largula maximo dos seus elementos pai */
+    box-sizing: border-box;
+    font-family: "Bebas Neue";
+    font-style: italic;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #e4cccc;
+
+}
+
+p{
+    color:#747990 ;
+}
+
+.btn, .btn_secondary{
+    background-color:darkgoldenrod;
+    color: #fff;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: 0.4;
+    cursor: pointer;
+    display: block;
+}
+
+btn:houver{
+    opacity: 0.8;
+}
+
+.btn_secondary{
+    background-color: #fff;
+    color: darkgoldenrod;
+    border: 1px solid darkgoldenrod;
+}
