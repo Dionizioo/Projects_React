@@ -14,9 +14,9 @@ Bem-vindo ao repositório que documenta meu aprendizado no curso de Frontend! Aq
 - **Descrição:** Página onde você pode marcar um evento seu .
 - **Tecnologias:** React+Javascrip e Local storage.
 
-## Projeto 4: xxxxxx
-- **Descrição:** Em Processo.
-- **Tecnologias:**  xxxxx.
+## Projeto 4: Blog React Axios
+- **Descrição:** Blog de Axios com json e Local Storage.
+- **Tecnologias:**  React+Javascrip , Json e Local storage.
 
 Este repositório é uma amostra do meu progresso no curso de Frontend e reflete a aplicação prática dos conhecimentos adquiridos. Sinta-se à vontade para explorar cada projeto e suas implementações.
 
