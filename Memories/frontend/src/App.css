@@ -1,0 +1,5 @@
+.container{
+    /* essa clase é responsavel pelo footer, para ficar na posição que é em todas as paginas */
+    min-height: 80vh;
+    background-color:#f7f7f7 ;
+}

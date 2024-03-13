@@ -1,0 +1,49 @@
+.home h2{
+    color:#1146a6;
+    padding: 2rem 0 1rem;
+    text-align: center;
+}
+
+.memories_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.btn{
+    text-align: center;
+    font-size: 12px;
+    gap: 1rem;
+}
+.memory{
+    flex: 1 1 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    background-color: #9c9a9a67;
+    padding: 1rem;
+    border-radius: 10px;
+}
+/* padronizar imagem */
+.memory img{
+  max-width:200px ;
+  /* para não ficar distorcida */
+  object-fit: cover;
+  border-radius: 10px;
+  /* centralizar a imagem */
+    margin: auto;
+}
+
+.memory-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    display: flex;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
