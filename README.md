@@ -22,6 +22,20 @@ Bem-vindo ao repositório que documenta meu aprendizado no curso de Frontend! Aq
 - **Descrição:** Site de realizar sua festas junto com serviços.
 - **Tecnologias:**  React+Javascrip , Json , Local storage e MongoDB.
 
+## Projeto 6:  Memories
+ - Descrição: Memories é uma aplicação web que permite aos usuários criar, visualizar, editar e comentar memórias especiais em forma de fotos e descrições. Essas memóriaspodem ser compartilhadas com outros usuários, proporcionando uma maneira única de reviver momentos preciosos.
+
+Tecnologias Utilizadas:
+
+
+React e JavaScript
+MongoDB
+Express.js
+Axios
+React Router
+React Toastify
+
+
 
 Este repositório é uma amostra do meu progresso no curso de Frontend e reflete a aplicação prática dos conhecimentos adquiridos. Sinta-se à vontade para explorar cada projeto e suas implementações.
 
