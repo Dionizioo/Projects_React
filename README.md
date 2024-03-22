@@ -25,6 +25,11 @@ Bem-vindo ao repositório que documenta meu aprendizado no curso de Frontend! Aq
 ## Projeto 6:  Memories
  - Descrição: Memories é uma aplicação web que permite aos usuários criar, visualizar, editar e comentar memórias especiais em forma de fotos e descrições. Essas memóriaspodem ser compartilhadas com outros usuários, proporcionando uma maneira única de reviver momentos preciosos.
 
+
+![2024-03-22 14-59-11](https://github.com/Dionizioo/Projects_React/assets/88460475/7e7cc1b0-3726-4327-9f84-a1f37a795636)
+
+
+
 Tecnologias Utilizadas:
 
 
