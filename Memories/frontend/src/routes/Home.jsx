@@ -63,9 +63,22 @@ const Home = () => {
 
   return (
     <div className='home'>
-      <h2>Confira as últimas Memórias</h2>
-      {/* Input para pesquisa */}
+      <div className='header'>
+        <div>
+          <h2>Explore sua Curisidade<br></br>
+          <p>Bem-vindo ao site! Aqui, você poderá registrar suas memórias e compartilhar pontos interessantes com seus amigos. Neste espaço, você pode comentar sobre tudo, desde uma simples caminhada nas montanhas até uma viagem inesquecível.
+          </p>
+          <br></br>
+            Crie sua Historia
+            <br></br>
+            <Link className='btns' to="/add_memory">Criar</Link></h2>
+        </div>
+        
+         <img className='img' src={`${axios.defaults.baseURL}${memories.length > 0 ? memories[0].src : ''}`} alt={memories.length > 0 ? memories[0].title : ''} />
+      </div>
+      <h2>Pesquise sua Historia</h2>
       <input
+        className='input'
         type='text'
         placeholder='Pesquisar'
         value={searchTerm}
@@ -74,21 +87,21 @@ const Home = () => {
       <div className='memories_container'>
         {filteredMemories.length > 0 ? (
           filteredMemories.map((memory) => (
-            <div className='memory' key={memory._id}>
-              <img src={`${axios.defaults.baseURL}${memory.src}`} alt={memory.title} />
-              <p>{memory.title}</p>
-              <div className='memory-buttons'>
-                <Link className='btn' to={`/memories/${memory._id}`}>
-                  Comentar
-                </Link>
-                <button className='btn' onClick={() => removeMemory(memory._id)}>
-                  Remover
-                </button>
-                <button className={`btn ${memory.favorite ? 'favorite' : ''}`} onClick={() => toggleFavorite(memory._id)}>
+            <div className={`memory ${memory.favorite ? 'favorite-memory' : ''}`} key={memory._id}>
+            <img src={`${axios.defaults.baseURL}${memory.src}`} alt={memory.title} />
+            <p>{memory.title}</p>
+            <div className='memory-buttons'>
+              <Link className='btn' to={`/memories/${memory._id}`}>
+                Comentar
+              </Link>
+              <button className='btn' onClick={() => removeMemory(memory._id)}>
+                Remover
+              </button>
+              <button className='btn' onClick={() => toggleFavorite(memory._id)}>
                 Favoritar
               </button>
-              </div>
             </div>
+          </div>
           ))
         ) : (
           <p>Nenhuma memória encontrada</p>

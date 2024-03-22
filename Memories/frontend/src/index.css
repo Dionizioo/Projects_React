@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: poppins;
+  font-family: "Molengo", sans-serif;
 }
 img{
   /* todas as imagens vão respeitar o elemento pai da largura */
@@ -18,8 +18,8 @@ h3{
   margin-bottom: 1.2rem;
 }
 .btn{
-  background-color: #2351a7;
-  color: #fff;
+  background-color: #fff;
+  color:black;
   border-radius: 5px;
   padding: .6rem 1rem;
   max-width: 120px;
@@ -32,6 +32,7 @@ h3{
 }
 .btn:hover{
   opacity: 1;
+  background-color: chocolate;
 }
 
 /* Forms */

@@ -6,14 +6,14 @@ import './Navbar.css'
 const Navbar = () => {
   return <nav className="navbar">
     <h2>
-        <Link to="/">Memories</Link>
+        <Link to="/">Memorias</Link>
     </h2>
     <ul>
         <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Pagina Principal</Link>
         </li>
         <li>
-            <Link to="/add_memory">Add Memory</Link>
+            <Link to="/add_memory">Crie sua Memoria</Link>
         </li>
     </ul>
   </nav>

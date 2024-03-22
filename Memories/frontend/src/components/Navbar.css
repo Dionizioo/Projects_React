@@ -1,16 +1,22 @@
 .navbar{
-    background-color: #1146a6;
-    padding: 1rem 3rem;
+    background-color: #fff;
+    padding: 1rem 3rem; 
     display: flex;
     align-items: center;
-    /* passar os itemns na horizontal */
     justify-content: space-between;
+    border: 1px solid #1e1e1a;
 }
 .navbar ul{
     display: flex;
-    gap: 0.8rem;
+    gap: 2rem;
+    list-style-type: none;
 }
-
 .navbar a{
-    color: #fff;
+    color:#1e1e1a;
+}
+#marca a{
+    background-color: #1e1e1a;
+    color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 5rem;
 }
